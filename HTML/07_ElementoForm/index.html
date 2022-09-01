@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Elemento Form</title>
+  </head>
+
+  <body>
+    <!--estrutura do elemento form-->
+    <form method="post" action="frizzoanapaula04@gmail.com">
+      <input type="button" name="clique aqui" value="clique aquI" />
+      <input type="password" required />
+      <input type="submit" value="enviar" />
+
+      <!--valor checkbox do atributo type-->
+      <p>Escolha o estado que você quer morar</p>
+
+      <label for="tor">Toronto</label>
+      <input id="tor" type="checkbox" />
+
+      <label for="tex">Texas</label>
+      <input id="tex" type="checkbox" />
+
+      <!--valor RADIO para o atributo type-->
+      <p>Selecione a vacina que você quer tomar</p>
+      <label for="meg">megatrom</label>
+      <input id="meg" type="radio" name="tipo" />
+
+      <label for="bom">bombombi</label>
+      <input id="bom" type="radio" name="tipo" />
+
+      <label for="iro">bombeiro</label>
+      <input id="iro" type="radio" name="tipo" />
+
+      <!--Elemento select, datalist e option-->
+      <br>
+      <label for="">Escolha o seu pão</label>
+      <select name="pão" id="pão">
+        <option value="for">forma</option>
+        <option value="bro">bronha</option>
+        <option value="fra">frances</option>
+        <option value="bag">baguete</option>
+      </select>
+
+      <br>
+<label for="times">Times</label>
+<input autocomplete="on" list="time" name="time" id="times"/>
+<datalist id="time">
+  <option value="penapolence">Penapolence</option>
+  <option value="">Portuguesa</option>
+  <option>Palmeiras</option>
+  <option>Chapeco</option>
+  <option>Piaui</option>
+</datalist>
+
+
+    </form>
+  </body>
+</html>
