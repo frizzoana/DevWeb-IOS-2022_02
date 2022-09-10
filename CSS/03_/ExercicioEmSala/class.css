@@ -1,0 +1,18 @@
+@charset "utf-8";
+body {
+ color: #000;
+
+ font-family: Arial, Verdana, sans-serif;
+}
+
+   .pipoca {
+    color: rgb(89, 10, 93);
+   }
+
+ section .cinema {
+   background-color: red ;
+}
+
+   p {
+      background-color: green;
+   }

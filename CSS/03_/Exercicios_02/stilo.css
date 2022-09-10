@@ -1,0 +1,46 @@
+@charset "utf-8";
+*{
+ font-family: "Arial", Verdana, sans-serif;
+ background-color: ;
+}
+h1 {
+ background-color: SlateBlue1 ;
+ color:blue;
+ border: 2px solid grey;
+ text-align: center;
+}
+
+
+#cinema {
+    background-color: #BDB76B;
+}
+
+.pipoca {
+color:grey;
+background-color:#BDB76B;
+border: 2px solid rgb(62, 220, 88);
+}
+
+.fundo_text {
+background-color: blue;
+}
+
+.pão {
+    color:blueviolet
+}
+#primeiro_nome{
+background-color: blue;
+color: blueviolet;
+
+}
+
+#segundoNome{
+background-color: blueviolet;
+color: blue;
+}
+
+article h4{
+    text-align: center;
+    border: 2px solid indigo;
+    font-size: 26px;  
+}
