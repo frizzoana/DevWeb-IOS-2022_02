@@ -1,0 +1,14 @@
+* {
+    background-color: #d1c8a3;
+    font-size: 25px;
+}
+
+.pipoca {
+    background-color:  #c6ad71;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px #acba9d;
+}
+
+h2, h3, h4{
+    color:  #e3604d;
+}
