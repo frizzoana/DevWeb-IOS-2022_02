@@ -33,6 +33,7 @@ border: 2px dotted rgb(46, 45, 45);
     color: #fff;
     padding: 5px 5px;
     border: 1.5em;
+    text-decoration:none;
 }
 
 .showcase {

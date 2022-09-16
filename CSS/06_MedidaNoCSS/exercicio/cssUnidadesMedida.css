@@ -1,0 +1,50 @@
+html { font-size: 50%;
+ }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color:;
+    color: #000;
+    line-height: 1.6em;
+    height: 100vh;
+    margin: .9em;
+    text-align: center;
+}
+
+header {
+background-color:cornflowerblue;
+border: 2px solid rgb(13, 49, 97) ;
+
+   } 
+
+   section{
+background-color:cornflowerblue;
+font-size: 1.8rem;
+
+   }
+
+   .btn{
+text-decoration: none;
+color: rgb(160, 215, 247);
+padding: 5px 5px;
+border: 1.5em;
+   }
+
+   .pai{
+color: white;
+border: rgb(13, 49, 97);
+   }
+
+   .filho{
+    background-color: cornflowerblue;
+font-size: 2rem;
+
+   }
+
+   .filho2 {
+    font-size: 5rem ;
+    line-height: 1em;
+    text-shadow: 5px 5px 7px rgb(146, 171, 241);
+   }
+
