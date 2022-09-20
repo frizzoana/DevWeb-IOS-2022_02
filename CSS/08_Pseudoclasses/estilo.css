@@ -1,0 +1,56 @@
+p:first-child{
+    color: blue;
+}
+
+/*selecionar qual item da lista vc quer mudar*/
+
+.myList li:first-child{
+background-color: brown;
+}
+
+.myList li:nth-child(3){
+    background-color: chocolate;
+}
+
+.myList li:last-child{
+    background-color: darksalmon;
+}
+
+/*A pseudoclasse :hover aplica o estilo quando o mousse passa por cima do elemento*/
+
+a:hover{
+background-color: yellow;
+}
+
+/* principais pseudoelementos do CSS(::) */
+
+#paragrafo::before{
+    content: "Leia isso - " ;
+}
+
+#paragrafo2::after{
+    content: " - Leia mais";
+}
+
+/*first-letter que pega a primeira letra do meu elemento*/
+
+/*p::first-letter{
+    font-size: 200%;
+    color: #8a2be2;
+}*/
+
+#first::first-line{
+background-color:  #b688e2;
+}
+
+p::selection{
+    color: white;
+    background-color: blue;
+}
+
+::selection{
+    color: gold;
+    background-color: red;
+}
+
+pisseudoclasse :focus
