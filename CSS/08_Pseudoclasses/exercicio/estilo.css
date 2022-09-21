@@ -1,7 +1,26 @@
-.colorlink:hover{
-    background-color: yellow;
+a:hover{
+    background-color: ;
     }
 
-    p::first-line{
+p::first-line{
         background-color: ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body:after{
+        content: "&copy 2022 Todos os direitos reservados";
     }
