@@ -9,7 +9,7 @@ h2{
 
 .col{
 float: left;
-/*a porcentagem total é 100, então dividmos para os tres itens (33%)*/
+/*a porcentagem total é 100, então dividimos para os tres itens (33%)*/
 width: 33%;
 padding:8px;
 box-sizing: border-box;

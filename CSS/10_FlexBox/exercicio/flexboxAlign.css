@@ -1,0 +1,41 @@
+div{
+    padding: 15px;
+    border: 2px inset aquamarine;
+    margin-left: 7px;
+}
+
+section{
+    display: flex
+}
+
+section{
+    align-items: flex-start;
+}
+
+h2{
+    text-align: center;
+}
+
+.primeira{ 
+flex: 2;
+order: 3;
+}
+
+.segunda{
+flex: 1;
+order: 1;
+}
+
+.terceira{
+flex: 2;
+order: 2;
+}
+
+.quarta{
+flex: 1;
+order: 4;
+}
+
+.ali{
+    align-self: center;
+}
