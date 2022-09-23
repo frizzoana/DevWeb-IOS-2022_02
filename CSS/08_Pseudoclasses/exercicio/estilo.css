@@ -1,3 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.primeira{
+    box-sizing: border-box;
+}
+
+.img1{
+    widge: 1400px;
+    height: 300px;
+    border: 1px solid red;
+    background: #fff url('imagem.png') no-repeat center;
+}
+
+
+.box{
+    border: 25px;
+    padding: 40px;
+    margin: 20px;
+}
+
+h1{
+    font-family: serif;
+    color: #31a420;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+/*
+
+
+.container{
+    padding: 2em;
+}
+
 a:hover{
     background-color: ;
     }
@@ -21,6 +59,6 @@ p::first-line{
 
 
 
-    body:after{
+      body:after{
         content: "&copy 2022 Todos os direitos reservados";
     }
