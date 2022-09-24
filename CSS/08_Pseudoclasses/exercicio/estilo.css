@@ -8,9 +8,9 @@
 }
 
 .img1{
-    widge: 1400px;
+    widge: 1400px; 
     height: 300px;
-    border: 1px solid red;
+    border: 1px solid #8c867c;
     background: #fff url('imagem.png') no-repeat center;
 }
 
