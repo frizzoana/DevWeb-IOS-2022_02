@@ -1,74 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+body { 
+    background-color: ; 
+} 
+ 
+h1{ 
+    text-align: center; 
+    color: ; 
+    padding: 30px; 
+    width: 5px;
+    text
+} 
 
-body{
-    background-image: url(./IMG/attack-on-titan-2.jpg);
-    background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-}
+.texto h1{ 
+    text-align: center; 
+    color: ; 
+    padding: 30px; 
+    width: 1.3rem;
+} 
+ 
+.container{ 
+    margin-top: 5%; 
+    margin-left: 10%; 
+} 
+ 
+.texto { 
+    display: flex; 
+    margin-top: 40px; 
+    background-color: ; 
+    padding: 10px; 
+} 
 
-.primeira{
-    box-sizing: border-box;
-    border: 5px solid blue;
-    padding: 50px;
-    float: left;
-}
+.noticia { 
+    float: left; 
+} 
 
-/*.img1{
-    widge: 1400px; 
-    height: 300px;
-    border: 1px solid #8c867c;
-    background: #fff url('imagem.png') no-repeat center;
-}
+} 
+img { 
+    width: 100%; 
+    height: 100%
+} 
+ 
+section { 
+    background-color: ; 
+    padding: 10px; 
+    margin: 13px; 
+    border: 1px solid; 
+} 
+ 
+h2 { 
+    padding-top: 2px; 
+    text-align: center; 
+    color: ;
+} 
+ 
+.informacao { 
+    padding: 15px; 
+} 
+ 
 
-
-.box{
-    border: 25px;
-    padding: 40px;
-    margin: 20px;
-}
-
-h1{
-    font-family: serif;
-    color: #31a420;
-    padding: 50px;
-    text-align: center;
+ 
+.par { 
+    padding-top: 2px; 
+    text-align: center; 
+} 
+ 
+.btn { 
+    font-size: 18px; 
+    padding-bottom: 5px; 
+    background-color: #; 
+    padding: 3px 15px; 
+    font-weight: 300; 
+    margin-left: 3px; 
+    color: ; 
+    text-decoration: none; 
     
+} 
+
+a:hover { 
+    background-color:; 
 }
-
-/*
-
-
-.container{
-    padding: 2em;
+ 
+.rodape { 
+    background-color: ; 
+    text-align: center; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: ; 
+    margin: 10px; 
 }
-
-a:hover{
-    background-color: ;
-    }
-
-p::first-line{
-        background-color: ;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      body:after{
-        content: "&copy 2022 Todos os direitos reservados";
-    }
