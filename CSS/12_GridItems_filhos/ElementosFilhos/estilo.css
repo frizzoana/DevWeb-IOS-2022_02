@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px;
+    grid-auto-flow: row;
+}
+
+.item-1{
+    border: 2px solid blueviolet;
+    grid-column: 1;
+    grid-row: 1 / 3;    
+    justify-self: end;
+}
+
+.item-2{
+    border: 2px solid blue;
+    grid-column: 5;
+    grid-row: 1 / 3;
+}
+
+.item-3{
+    border: 2px solid red;
+}
+
+.item-4{
+    border: 2px solid yellow;
+}
+
+.item-5{
+    border: 2px solid yellowgreen;
+}
+
+.item-6{
+    border: 2px solid rgb(212, 26, 187);

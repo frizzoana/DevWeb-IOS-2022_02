@@ -3,11 +3,21 @@
     padding: 0;
 }
 
-.primeira{
-    box-sizing: border-box;
+body{
+    background-image: url(./IMG/attack-on-titan-2.jpg);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
 
-.img1{
+.primeira{
+    box-sizing: border-box;
+    border: 5px solid blue;
+    padding: 50px;
+    float: left;
+}
+
+/*.img1{
     widge: 1400px; 
     height: 300px;
     border: 1px solid #8c867c;
