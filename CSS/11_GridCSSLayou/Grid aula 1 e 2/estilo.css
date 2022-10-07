@@ -7,26 +7,19 @@
 
 .container{
     display: grid;
-    border: 2px solid black ;
-    grid-template-columns: 80px 80px 80px 80px;  
-    /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-rows: 80px 80px;
-    /* column-gap: 10px;
-    row-gap: 15px; */
+    border: 2px solid black ; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 80px; 
+    /* column-gap e row-gap juntos, usar grid-gap*/
     grid-gap: 10px;
     /* justify-items: start;       
     align-items: end; */
     /* place-items: start; */
     /* justify-content: space-around; */
     align-content: space-between;
+}  
 
-
-
-    /* grid-template-areas: 
-    "pipoca pipoca pipoca pipoca"
-    "header header . main"      
-    "footer footer footer pipoca2"; */ 
-}    /*. indica que naquele lugar não vai haver nenhum filho*/
+/* em grid-template-areas, . indica que naquele lugar não vai haver nenhum filho*/
 
 /* grid-gap é uma abreviação das propriedades row-gap e column-gap */
 

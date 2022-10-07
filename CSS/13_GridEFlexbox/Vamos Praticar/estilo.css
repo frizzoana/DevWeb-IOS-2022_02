@@ -70,6 +70,8 @@ img{
 padding: 2rem;
 }
 
+/*comando para mudar apenas os pares*/*
+
 .card:nth-child(even) img {
 order: 2;
 }
