@@ -3,4 +3,45 @@
     border: 2px solid black ;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    grid-area:
+    "filho1 filho1 filho2 filho2"
+    "filho3 filho3 filho3 filho3"
+    "filho4 filho4 filho4 filho4"
+    " . filho5 filho5 ."
+    "filho6 filho6 filho6 filho6"
+    "filho7 filho7 filho8 filho9";
+    grid-gap: 80px;
 }
+
+.primeiro{
+    grid-area: filho1;
+}
+
+.segundo{
+    grid-area: filho2;
+}
+
+.filho3{
+    grid-area: filho3;
+}
+
+.filho4{
+    grid-area: filho4;
+}
+
+.filho5{
+    grid-area: filho5;
+}
+.filho6{
+    grid-area: filho6;
+}
+.filho7{
+    grid-area: filho7;
+}
+.filho8{
+    grid-area: filho8;
+}.filho9{
+    grid-area: filho9;
+}
+
+
