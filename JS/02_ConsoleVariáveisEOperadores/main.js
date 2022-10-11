@@ -58,3 +58,7 @@ console.log(Heloisa != Marcelo) // ! faz com que o resultado (false ou true) sej
 /* a var pode conter string ou number
    a let não pode declarar duas variáveis com o mesmo nome
    a const não pode ser redeclarada e nem mudar o valor*/
+
+   console.clear();   /*limpa oq estiver em cima, a informação não aparecerá*/
+
+   
