@@ -1,5 +1,5 @@
 body{
-    background-color: #d3a625;
+    background-color: grey;
     color: black;
 }
 
@@ -12,32 +12,44 @@ body{
 }
 
 header{
+    background-color: #ae0001;
     display: flex;
     align-self: center;
     border: 1px solid black;
     padding: 15px;
     margin: 25px;
-    background-color: #eeba30;
+    height: 100px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
     font-family: sans-serif;
+    position: absolute;
+    left: 500px;
 }
 
 img{
     width: 100px;
     height: 100px;
     float: left;
+    position: absolute;
 }
 
 div .conteudo{
-    border: 1px solid blue;
-    background-color: #ae0001;
+    padding: 20px;
+    background-color: #eeba30;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn{
-    background-color: #740001;
-    padding: 15px;
+    background-color: #ae0001;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
 }

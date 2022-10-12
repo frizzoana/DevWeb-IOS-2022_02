@@ -1,47 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container{
     display: grid;
-    border: 2px solid black ;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-area:
-    "filho1 filho1 filho2 filho2"
+    grid-template-areas:
+    "filho1 filho1 filho2 filho2" 
     "filho3 filho3 filho3 filho3"
     "filho4 filho4 filho4 filho4"
     " . filho5 filho5 ."
     "filho6 filho6 filho6 filho6"
     "filho7 filho7 filho8 filho9";
-    grid-gap: 80px;
+    grid-gap: 20px;
+    align-content: space-between;
 }
 
 .primeiro{
     grid-area: filho1;
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
 }
 
 .segundo{
     grid-area: filho2;
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
 }
 
 .terceiro{
     grid-area: filho3;
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
 }
 
 .quarto{
     grid-area: filho4;
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
 }
 
 .quinto{
     grid-area: filho5;
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
 }
+
 .sexto{
     grid-area: filho6;
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
 }
+
 .setimo{
     grid-area: filho7;
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
 }
+
 .oitavo{
     grid-area: filho8;
-}.nono{
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
+}
+
+.nono{
     grid-area: filho9;
+    border: 1px solid blueviolet;
+    background-color: rgb(196, 171, 220);
 }
 
 
