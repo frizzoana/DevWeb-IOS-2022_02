@@ -1,17 +1,16 @@
-*{
-    background-color: #725436;
+body{
+    /* background-color: #725436; */
+    padding: 20px;
+    width: 80%;
 }
 
 .container{
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(5 , 1fr); 
-    grid-area: 
-    "filho1"
-    "filho2"
-    "filho3"
-    "filho4"
-    "filho5"
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px; 
+    grid-template-areas: 
+    "filho1 filho2"
+    "filho3 filho4"
     ;
 }
 
@@ -21,6 +20,47 @@ h1{
     font-family: sans-serif;
 }
 
+img{ 
+    width: 400px; 
+    text-align: center;
+    position: relative;
+    float: left;
+    padding: 20px;
+} 
+
+.resumo{
+    text-align: center;
+    float: right;
+    padding: 30px;
+}
+
+.video{
+    float: left;
+    padding: 20px;
+}
+
+.trailer{
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
 .primeiro{
     grid-area: filho1;
+}
+
+.segundo{
+    grid-area: filho2;
+}
+
+.terceiro{
+    grid-area: filho3;
+}
+
+.quarto{
+    grid-area: filho4;
+}
+
+footer{
+    clear: right;
 }

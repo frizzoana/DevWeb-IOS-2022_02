@@ -16,7 +16,7 @@ console.log('b é 10');
 // Estrutura condicional composta
 console.clear();
 const e = '10';
-if (e === 10) console.log('e é o numeral 10');
+if (e === 10) console.log('e é o numeral 10');    /* === TRIPLO IGUAL QUER DIZER EXATAMENTE IGUAL*/
 else {
 console.log(`Resultado da condição: ${e === 10}`);
 console.log('e não é o numeral 10');
