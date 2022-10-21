@@ -1,4 +1,4 @@
 Um objeto é um tipo de variável que contém propriedades e métodos, também pode ser uma função... Qualquer tipo de dado é um objeto. 
 
 
-Já o método é a propriedade que armazena uma função, opera os dados contidos em uma classe.
+Já o método é a propriedade que armazena uma função, opera os dados contidos em uma classe, operações.
