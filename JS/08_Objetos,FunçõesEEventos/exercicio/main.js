@@ -33,4 +33,4 @@ const resultado2 = Math.sqrt(x2(n1, n2));
 
 
 const eventClique = () => {
-    console.log(x1)
+    console.log('(x1)')
