@@ -5,6 +5,29 @@ window.alert('Bem-vindo!');
 document.title = "Exercício, Dom parte 1";
 
 //section
-let section = section.createElement('H1', 'p');
-document.body.appendChild(section);
-section.innerHTML = 'Olá alunos!', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis tempora sapiente ipsum consectetur accusantium cumque ipsam nisi ducimus quibusdam illo molestiae maiores labore asperiores, autem distinctio obcaecati aliquid earum praesentium!';
+// console.log(document.section);
+// console.log(document.article);
+var sec= document.createElement('section');
+document.body.appendChild(sec);
+
+var h1= document.createElement('h1');
+h1.innerHTML = 'Olá alunos!';
+sec.appendChild(h1);
+
+var p= document.createElement('p');
+p.innerHTML = 'lerolero';
+sec.appendChild(p);
+
+
+var art= document.createElement('article');
+document.body.appendChild(art);
+
+var h1= document.createElement('h1');
+h1.innerHTML = 'Olá alunos!';
+art.appendChild(h1);
+
+var p= document.createElement('p');
+p.innerHTML = 'lerolero';
+art.appendChild(p);
+
+
