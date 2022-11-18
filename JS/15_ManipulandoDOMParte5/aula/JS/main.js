@@ -18,7 +18,7 @@ function addItem(e) {
     li.appendChild(document.createTextNode(newItem));
     // Cria o elemento botão para deletar um item
     let deleteBtn = document.createElement('button');
-    // Adiciona classes para o botão de deletar
+    // Adiciona classes para o botão de letar
     deleteBtn.className = 'btn btn-danger btn-sm float-end delete';
     // Acrescenta o texto no novo elemento
     deleteBtn.appendChild(document.createTextNode('X'));
