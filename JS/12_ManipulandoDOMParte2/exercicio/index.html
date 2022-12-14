@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício com manipulação de DOM</title>
-</head>
-<body>
-    <h2>Frutas</h2>
-      <ul id="itens">
-    <li id="item">maçã</li>
-    <li id="">banana</li>
-    <li id="negrito item3">uva</li>
-    <li id="per">pera</li>
-      </ul>
+    <head>
+        <meta charset="UTF-8" />
 
-<button onclick="eventClique()">Mudar cor de fundo</button>
+        <title>Exercício 12 Manipulando O Dom Part 2</title>
+    </head>
 
+    <body>
+        <h2 id="titulo">Página em Construção</h2>
+        <ul id="items" class="list">
+            <li class="item" id="item1">Item 1</li>
+            <li class="item" id="item2">Item 2</li>
+            <li class="item" id="item3">Item 3</li>
+            <li class="item" id="item4" name="fitem">Item 4</li>
+            <li class="item" id="item5">Item 5</li>
+            <li class="item" id="item6">Item 6</li>
+        </ul>
 
+        <button onclick="background()">Cor</button>
+        <button onclick="font()">Fonte</button>
+        <button onclick="zebrado()">Zebrado</button>
+        <button onclick="bottom()">Sublinhado</button>
+        <button onclick="delet()">Remover</button>
+        <button onclick="reset()">Voltar</button>
 
-<button class="btn2" onclick="eventClique2()">2</button>
-<button class="btn3" onclick="eventClique3()">3</button>
-<button class="btn4" onclick="eventClique4()">4</button>
-<button class="btn5" onclick="eventClique5()">5</button>
-<button class="btn6" onclick="eventClique6()">6</button>
-
-<script src="main.js"></script>
-</body>
+        <script src="./main.js"></script>
+    </body>
 </html>
