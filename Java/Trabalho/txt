@@ -1,0 +1,42 @@
+ O que é Spring?
+ Spring é um framework que torna mais rápida e mais fácil a programação em Java, por facilitar a criação de aplicações.
+
+ O que é Hibernate?
+ É um framework de objetos, uma ferramenta de mapeamento, extrai os elementos do banco de dados e transforma em objetos.
+
+ O que é JVM, JDK e JRE?
+ Conjunto que serve para a criação de sistemas de software na linguagem Java.
+
+4) O que é o Java e por qual motivo foi criado?
+R: É uma linguagem de programação criada pela Sun Microsystems, foi criado com o objetivo de antecipar as tendências tecnológicas futuras
+orientada a objetos e centrada em rede, que nos permita codificar tudo, desde aplicações móveis e softwares, até aplicações big data e 
+tecnologias do servidor.
+
+5) Qual a diferença entre JSE, JME e JEE?
+R: JSE Java Estándar Edition), é o ambiente orientado de desenvolvimento mais utilizado em servidores e PC's, enquanto JME (Java Micro Edition),
+é um ambiente orientada para desenvolvimento de aplicações para dispositivos móveis, já o JEE (Java Enterprise Edition), é a plataforma Java 
+voltada para redes, internet, intranets e similares.
+
+Hibernate
+
+Hibernate é um framework Java que trabalha com a conversão de dados em objetos,
+ajudando a os desenvolvedores gastarem menos tempo em questão de ter
+que fazer isso manualmente 
+
+O quê é JVM, JDK e JRE?
+
+JVM dá a partida no seu código Java. Ele carrega e executa os aplicativos feitos em Java.
+JDK é basicamente são as ferramentas que o dev em processo de criação de códigos, 
+como bibliotecas e compiladore.
+
+O quê é o Java e por qual motivo foi criado?
+
+Java é uma linguagem de programação criada que pode ser utilização em equipamentos,
+segurança de servidores, sistema de gestão e etc.
+
+
+Qual a diferença entre JSE, JME e JEE?
+
+JSE é o ambiente de desenvolvimento utilizado em servidores. JME é um ambiente de desenvolvimento
+voltado para dispositivos móveis. E JEE e um  conjunto de APIs para a  execução seguras
+para o servidor 
