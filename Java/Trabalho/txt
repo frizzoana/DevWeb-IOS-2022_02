@@ -5,38 +5,16 @@
  É um framework de objetos, uma ferramenta de mapeamento, extrai os elementos do banco de dados e transforma em objetos.
 
  O que é JVM, JDK e JRE?
- Conjunto que serve para a criação de sistemas de software na linguagem Java.
+ JVM (Java Virtual Machine) é um sistema que possibilita a execução em qualquer sistema operacional como o Windows ou Linux;
+ JDK (Jaava development kit ou kit de desenvolvimento Java) que tem ferramentas adicionais específicas para desenvolvimento, além das de JRE;
+ JRE (Java runtime environment) é um ambiente de execução Java, onde deve conter dentro da máquina um JVM.
 
-4) O que é o Java e por qual motivo foi criado?
-R: É uma linguagem de programação criada pela Sun Microsystems, foi criado com o objetivo de antecipar as tendências tecnológicas futuras
-orientada a objetos e centrada em rede, que nos permita codificar tudo, desde aplicações móveis e softwares, até aplicações big data e 
-tecnologias do servidor.
-
-5) Qual a diferença entre JSE, JME e JEE?
-R: JSE Java Estándar Edition), é o ambiente orientado de desenvolvimento mais utilizado em servidores e PC's, enquanto JME (Java Micro Edition),
-é um ambiente orientada para desenvolvimento de aplicações para dispositivos móveis, já o JEE (Java Enterprise Edition), é a plataforma Java 
-voltada para redes, internet, intranets e similares.
-
-Hibernate
-
-Hibernate é um framework Java que trabalha com a conversão de dados em objetos,
-ajudando a os desenvolvedores gastarem menos tempo em questão de ter
-que fazer isso manualmente 
-
-O quê é JVM, JDK e JRE?
-
-JVM dá a partida no seu código Java. Ele carrega e executa os aplicativos feitos em Java.
-JDK é basicamente são as ferramentas que o dev em processo de criação de códigos, 
-como bibliotecas e compiladore.
-
-O quê é o Java e por qual motivo foi criado?
-
-Java é uma linguagem de programação criada que pode ser utilização em equipamentos,
+O que é o Java e por qual motivo foi criado?
+É uma linguagem de programação, tem por objetivo antecipar as tendências tecnológicas futuras
+orientada a objetos. Java é uma linguagem de programação criada que pode ser utilização em equipamentos,
 segurança de servidores, sistema de gestão e etc.
 
-
 Qual a diferença entre JSE, JME e JEE?
-
 JSE é o ambiente de desenvolvimento utilizado em servidores. JME é um ambiente de desenvolvimento
 voltado para dispositivos móveis. E JEE e um  conjunto de APIs para a  execução seguras
 para o servidor 
